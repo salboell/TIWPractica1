@@ -56,7 +56,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="admin.jsp" class="nav-item nav-link">Administrador</a>
-                             <a href="login.jsp" class="nav-item nav-link">Usuario</a>
+                            
                         </div>
                         
                     </div>
@@ -88,7 +88,7 @@
             <div class="container-fluid">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Admin</li>
+                    <li class="breadcrumb-item active">Login and Register</li>
                 </ul>
             </div>
         </div>
@@ -98,12 +98,45 @@
         <div class="login">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-lg-6">    
+                        <div class="register-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>First Name</label>
+                                    <input class="form-control" type="text" placeholder="First Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Last Name"</label>
+                                    <input class="form-control" type="text" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>E-mail</label>
+                                    <input class="form-control" type="text" placeholder="E-mail">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Mobile No</label>
+                                    <input class="form-control" type="text" placeholder="Mobile No">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Password</label>
+                                    <input class="form-control" type="text" placeholder="Password">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Retype Password</label>
+                                    <input class="form-control" type="text" placeholder="Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="login-form">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label>E-mail</label>
-                                    <input class="form-control" type="text" placeholder="E-mail">
+                                    <label>E-mail / Username</label>
+                                    <input class="form-control" type="text" placeholder="E-mail / Username">
                                 </div>
                                 <div class="col-md-6">
                                     <label>Password</label>
