@@ -100,26 +100,28 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="login-form">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>E-mail</label>
-                                    <input class="form-control" type="text" placeholder="E-mail">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Password</label>
-                                    <input class="form-control" type="text" placeholder="Password">
-                                </div>
-                                
-                                <div class="col-md-12">
-                                    <button class="btn">Submit</button>
-                                </div>
-                            </div>
+                            <form method="post" action="login">
+								<div class="row">
+									<input type="text" class="datos" name="admin_mail"
+										placeholder="nombre@TIWbnb.com" required>
+								</div>
+								<div class="row">
+									<input type="password" class="datos" name="admin_pass"
+										placeholder="Password*" required>
+								</div>
+								<div class="separator"></div>
+								<div class="row">
+									<input type="submit" value="Iniciar Sesión">
+								</div>
+							</form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Login End -->
+        
+        
         
         <!-- Footer Start -->
         <div class="footer">
